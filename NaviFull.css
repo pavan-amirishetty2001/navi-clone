@@ -1,0 +1,238 @@
+/* Navigation BAr */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red;
+     */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    /* border: 1px solid rgb(230, 229, 229); */
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.nav-img{ 
+    margin-left: 100px;
+    height: 50px;
+}
+.nav-items{
+    display: flex;
+   
+}
+.nav-li{
+    text-decoration: none;
+    margin-left: 55px;
+    font-size: 17px;
+    color: black;
+    
+}
+.nav-li:hover{
+    
+    color: #bebebe;
+   
+    
+}
+.nav-button{
+    margin-left: 70px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 30px;
+    border: 1px;
+    color: aliceblue;
+    background-color: rgb(243, 79, 29);
+
+}
+/* navigation bar ended */
+/* Footer */
+.footer{
+    display: flex;
+    margin-top: 100px;
+    border: 1px solid rgb(232, 230, 230);
+    height: 300px;
+    align-items: center;
+}
+.footer-nav{
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 90px;
+    
+}
+.a2{
+    padding: 9px;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+h3{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 80px;
+}
+li{
+    padding: 10px;
+}
+/* footer Ended */
+/* investment strts */
+.investment{
+    border: 1px solid rgb(245, 244, 244);
+    display: flex;
+    height: 650px;
+    background-color: rgb(245, 243, 243);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+   
+}
+.investment-left{
+    margin-top: 240px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.investment-button{
+    margin-top: 10px;
+    width: 150px;
+    background-color: rgb(236, 73, 8);
+    color: aliceblue;
+    padding: 17px;
+    border: 1px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+.investment-img{
+    margin-left: 300px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   margin-top: 130px;
+}
+/* investment ends  */
+
+/* Why Navi Starts */
+.why-navi{
+   
+    margin-top: 100px;
+    justify-content: center;
+    /* margin-left:400px; */
+    align-items: center;
+}
+.why-navi-h1{
+    margin-left: 650px;
+}
+.why-navi-p{
+    color: rgb(81, 81, 81);
+    margin-left: 360px;
+    margin-top: 50px;
+    font-size: 20px;
+   
+ 
+}
+.why-navi-bottom{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 190px;
+    font-size: 20px;
+}
+.why-navi-bottom-sub{
+    padding: 5px;
+    margin-left: 70px;
+}
+/* navi video */
+.navi-video{
+    margin-top: 100px;
+    margin-left: 400px;
+   
+    margin-right: 500px;
+   
+
+}
+.navi-video:hover{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(224, 224, 224);
+    
+
+}
+.navi-upi{
+    display: flex;
+    color: aliceblue;
+    background-color: #3C0050;
+    height: 550px;
+    margin-top: 70px;
+}
+.navi-upi-left{
+    margin-left: 150px;
+}
+.navi-upi-h1{
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.navi-upi-p{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.navi-upi-img{
+    margin-left: 100px;
+}
+.navi-upi-ul{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 28px;
+}
+.navi-upi-button{
+    margin-left: 40px;
+    width: 130px;
+    padding: 14px;
+    color: aliceblue;
+    background-color: rgb(247, 107, 20);
+    border: 1px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+   
+}
+/* mutual fund */
+.mutual-fund{
+    display: flex;
+    margin-top: 50px;
+
+}
+.mutual-fund-img{
+    margin-left: 50px;
+    height: 500px;
+
+}
+.mutual-fund-right{
+    margin-left: 230px;
+    margin-top: 120px;
+}
+.mutual-fund-h1{
+    font-size: 35px;
+    margin-left: 15px;
+}
+.mutual-fund-p{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.mutual-fund-ul{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 10px;
+}
+.mutual-fund-button{
+    margin-left: 30px;
+    width: 140px;
+    padding: 14px;
+    color: aliceblue;
+    background-color: rgb(247, 107, 20);
+    border: 1px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+}
